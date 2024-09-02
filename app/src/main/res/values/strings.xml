@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">EDonator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Become a Donor</string>
+    <string name="nearH">Find nearest Hospitals</string>
+    <string name="fndBlood">Find Blood Donor</string>
+    <string name="donate">Donate Now</string>
+    <string name="app_name_login">EDonate Login</string>
+
+
+    <string name="displayName">Full Name</string>
+    <string name="mobile">Mobile No</string>
+    <string name="userAddress">Address</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+
+
+    <string name="forgotpass">Forgot password?</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="signup">Register</string>
+    <string name="register">Create an account</string>
+    <string name="prompt_email">Email</string>
+    <string name="logo">Logo</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_donor">Donors</string>
+    <string name="menu_hospital">Hospital</string>
+    <string name="menu_index">Landing</string>
+
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="Blood_Group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+
+    <string-array name="division_list">
+        <item>Dagoretti North </item>
+        <item>Dagoretti South</item>
+        <item>Embakasi Central</item>
+        <item>Embakasi East</item>
+        <item>Embakasi North</item>
+        <item>Embakasi South</item>
+        <item>Embakasi West</item>
+        <item>Kamukunji</item>
+        <item>Kibra </item>
+        <item>Langata </item>
+        <item>Makadara</item>
+        <item>Mathare</item>
+        <item>Roysambu </item>
+        <item>Ruaraka </item>
+        <item>Starehe</item>
+        <item>Westlands</item>
+    </string-array>
+
+
+    //Headings
+    <string name="heading_one">Saving Lives</string>
+    <string name="heading_two">Impact</string>
+    <string name="heading_three">Convenience</string>
+    <string name="heading_fourth">Improved health</string>
+
+    //Description
+    <string name="desc_one">Donating blood can save lives by providing a vital source of blood for patients who require transfusions. Blood donations can help patients suffering from various medical conditions, including cancer, heart disease, blood disorders, and traumatic injuries.</string>
+    <string name="desc_two">Your donations will go directly to the person in need, making a real difference in the world.</string>
+    <string name="desc_three">With just a few taps, you can make a donation from anywhere, at any time.</string>
+    <string name="desc_fourth">Donating blood can also improve the health of the donor, as it reduces the risk of heart disease and liver disease.</string>
+    <string name="title_activity_donors_page">DonorsPage</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>

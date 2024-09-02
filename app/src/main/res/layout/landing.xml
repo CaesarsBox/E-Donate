@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.m/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Donate Now mobile app landing page!"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Looking to make a difference in the world? Our app makes it easy for you to donate to the causes you care about most. Here are just a few reasons why you should donate using the app today:"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dono12"
+                android:contentDescription="Convenience"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convenience: With just a few taps, you can make a donation from anywhere, at any time."
+                android:textSize="18sp"
+                android:layout_marginLeft="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="100dp"
+                android:layout_margin="16dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/donate"
+                    android:onClick="loginNow"/>
+            </LinearLayout>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dono1"
+                android:contentDescription="Impact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impact: Your donations will go directly to the person in need, making a real difference in the world."
+                android:textSize="18sp"
+                android:layout_marginLeft="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="100dp"
+                android:layout_margin="16dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/donate"
+                    android:onClick="onLoginClick"/>
+            </LinearLayout>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dono14"
+                android:contentDescription="Impact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saving Lives: Donating blood can save lives by providing a vital source of blood for patients who require transfusions. Blood donations can help patients suffering from various medical conditions, including cancer, heart disease, blood disorders, and traumatic injuries."
+                android:textSize="18sp"
+                android:layout_marginLeft="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/donate"
+            android:onClick="onLoginClick"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

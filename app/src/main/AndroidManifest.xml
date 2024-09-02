@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.edonator">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EDonator"
+        tools:targetApi="31">
+        <activity
+            android:name=".DonorsPage.DonorsPage"
+            android:exported="false"
+            android:label="@string/title_activity_donors_page"
+            android:theme="@style/Theme.EDonator.NoActionBar" />
+        <activity
+            android:name=".mainscreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LandingPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.Login.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.Login.DonorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.Login.Register"
+            android:exported="true" />
+        <activity
+            android:name=".ui.Login.AdminActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
