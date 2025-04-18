@@ -1,6 +1,7 @@
 package com.example.edonator.ui.Login;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -76,6 +77,13 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Invalid Email or Password", Toast.LENGTH_SHORT).show();
                     input_password.setText("");
                 }
+
+                SharedPreferences prefs = getSharedPreferences("user_session", MODE_PRIVATE);
+                SharedPreferences.Editor editor = prefs.edit();
+                editor.putBoolean("isLoggedIn", true);
+                editor.putString("email", email); // Optional
+                editor.apply();
+
             }
         });
 

@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Intent i = new Intent(MainActivity.this, mainscreen.class);
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(i);
                 finish();
 

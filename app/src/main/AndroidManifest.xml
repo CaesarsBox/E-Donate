@@ -8,15 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EDonator"
+        android:theme="@style/Theme.EDonator.NoActionBar"
         tools:targetApi="31">
+
         <activity
-            android:name=".DonorsPage.DonorsPage"
-            android:exported="false"
-            android:label="@string/title_activity_donors_page"
-            android:theme="@style/Theme.EDonator.NoActionBar" />
-        <activity
-            android:name=".mainscreen"
+            android:name=".ui.Login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -31,9 +27,6 @@
             android:name=".LandingPageActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.Login.LoginActivity"
-            android:exported="true" />
-        <activity
             android:name=".ui.Login.DonorActivity"
             android:exported="true" />
         <activity
@@ -42,6 +35,17 @@
         <activity
             android:name=".ui.Login.AdminActivity"
             android:exported="true" />
+        <activity
+            android:name=".ui.Donor.Donor"
+            android:exported="true" />
+        <activity
+            android:name=".ui.Login.Admin.HomeActivity"
+            android:exported="true" />
+        <activity android:name=".ui.Login.Admin.NotificationActivity" />
+        <activity android:name=".ui.Login.Admin.ProfileActivity" />
+        <activity android:name=".ui.Login.Admin.UsersActivity" />
+        <activity android:name=".ui.Login.Admin.SettingsActivity" />
+
 
         <meta-data
             android:name="preloaded_fonts"
